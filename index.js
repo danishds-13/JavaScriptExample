@@ -37,3 +37,27 @@ const team ={
     "rohan": undefined
 }
 console.log(team["harry"])
+
+//Pratice set - POINT-4 
+var addnumber = function(a,b){
+    return a+b;
+}
+console.log(addnumber(7,2))
+console.log(typeof a)
+
+//the below one is an exmample for an object to be assigned but the thing is we cannot change the variable once its assigned but we can add another attribute to this as its a reserved value in object 
+//const a3 = {
+   // name:"dan",
+    //section: 1   
+//};
+//a3 = 3
+
+
+//There are two ways to access any element way one is dict.keyword that is the variable mame and dot operator and another one is dict["word"] this is the variable and then we use the brackets to get it defined
+const dict = {
+    word: "has an meaning",
+    mean: "being sensitive",
+    awkward: "shy"
+}
+console.log(dict.awkward)
+
