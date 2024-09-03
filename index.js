@@ -61,3 +61,15 @@ const dict = {
 }
 console.log(dict.awkward)
 
+//POINT-5 Operators and expression 
+console.log("Expressions:-")
+let a4=10;
+let b4=6;
+console.log("a+b=",a4+b4)
+console.log("a-b=",a4-b4)
+console.log("a*b=",a4*b4)
+console.log("a/b=",a4/b4)
+console.log("a**b=",a4**b4)
+console.log("a%b=",a4%b4)
+console.log("a++b=",++a4)
+console.log("a--b=",--a4)
