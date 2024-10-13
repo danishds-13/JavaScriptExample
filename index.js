@@ -1,11 +1,11 @@
 // Initial command to display anything we use the console.log - POINT1
 console.log("helloworld");
 
-//to print something using an variable -POINT1
+//POINT1 - to print something using an variable 
 let a1=64
 console.log(a)
 
-//To show var let and const -Point-2
+//-Point-2 -To show var let and const 
 var a = 45;
 let b ="harry";
 var c = null
@@ -18,7 +18,7 @@ const e = "hellowarzone"
 console.log(b)
 console.log(e)
 
-// To show about primitive data types oin javascript - Point-3
+//- Point-3- To show about primitive data types oin javascript 
 let a2 = null;
 let b2 = 75;
 let c2 = "dan"
@@ -38,7 +38,7 @@ const team ={
 }
 console.log(team["harry"])
 
-//Pratice set - POINT-4 
+//- POINT-4 -Pratice set 
 var addnumber = function(a,b){
     return a+b;
 }
@@ -73,3 +73,20 @@ console.log("a**b=",a4**b4)
 console.log("a%b=",a4%b4)
 console.log("a++b=",++a4)
 console.log("a--b=",--a4)
+
+//Compression operator:
+let comp1 = 6;
+let comp2 = 7;
+console.log("comp1 == comp2 is:", comp1 == comp2)
+console.log("comp1 != comp2 is:", comp1 != comp2)
+console.log("comp1 === comp2 is:", comp1 === comp2)
+console.log("comp1 !== comp2 is:", comp1 !== comp2)
+console.log("comp1 > comp2 is:", comp1 > comp2)
+
+//Logical operators:
+let xy=6;
+let xz=7;
+console.log(xy>xz && xz==7) // both should be the same value then will return the result 
+console.log(xy<xz && xz==5) // if any value is true then it will return me as true
+console.log(!true)
+
