@@ -90,3 +90,54 @@ console.log(xy>xz && xz==7) // both should be the same value then will return th
 console.log(xy<xz && xz==5) // if any value is true then it will return me as true
 console.log(!true)
 
+//POINT-6 Conditional operators 
+// let a3=prompt("hey whats your age!")
+// console.log(typeof a3)
+// a3=Number.parseInt(a3) // convert string to number this is called as parse int
+
+//if statement: 
+let age=5;
+if (age > 0){
+    console.log("This is a valid age")
+}
+
+// if -else statement:
+if (age > 0){
+    console.log("This is a valid age")
+}
+else{
+    console.log("invalid age")
+}
+
+//if-else-if statement:
+if (age < 0){
+    console.log("This is a valid age")
+}
+else if(age<15){
+    console.log("kid age is not for driving at all")
+}
+else {
+    console.log("kid age is for driving only man!!")
+}
+
+//Example for Switch statement:
+const expr= 'banana'
+switch(expr){
+    case 'orange':
+        console.log('oranges are not that tasty');
+        break;
+    case 'mangoes':
+    case 'banana':
+        console.log('banana and mangoes are yummy man');
+        break;
+    default:
+        console.log('looks like fruits aint that great');
+}
+
+//Example for trenary operator: 
+console.log("you can now" , age<18? "drive man":"Not at all")
+
+// POINT - 7 : Loops
+for (let z=0;z<5;z++){              //initialiser:condition:increament/decreament.
+    console.log(z)
+}
