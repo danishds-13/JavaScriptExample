@@ -141,3 +141,17 @@ console.log("you can now" , age<18? "drive man":"Not at all")
 for (let z=0;z<5;z++){              //initialiser:condition:increament/decreament.
     console.log(z)
 }
+
+// for in loop 
+let obj = {
+    harry: 90,
+    shubh: 45,
+    shiv: 22
+}
+for (let a in obj){
+    console.log("marks of " +a+" are " +obj[a])
+}
+// for - of loop this is the variable iteration
+for (let b2 of "harry"){
+    console.log(b2)
+}
