@@ -97,7 +97,7 @@ console.log(!true)
 
 //if statement: 
 let age=5;
-if (age > 0){
+if (5 > 0){
     console.log("This is a valid age")
 }
 
@@ -155,3 +155,41 @@ for (let a in obj){
 for (let b2 of "harry"){
     console.log(b2)
 }
+
+//point 8- While and Do-While
+const readline = require('readline');
+
+const rl = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout
+});
+
+rl.question("Enter a value of n: ", (n) => {
+    n = Number.parseInt(n);
+
+    let i = 0;
+    while (i < n) {
+        console.log(i + 1);  // Printing values from 1 to n
+        i++;
+    }
+
+    rl.close();
+});
+
+// POINT -9 - functions:- Now this below example is a code that is without an fucntion to find the average of three numbers 
+let p =1;
+let q =2;
+let r = 3;
+
+console.log("average of three numbers are :", (p + q ) /2)
+console.log("average of three numbers are :", (q + r) /2)
+console.log("average of three numbers are :", (r + p) /2)
+
+// But if we use the function we can make it even more easy than having mulitple lines of code 
+function avgthree(p1,q2,r3){
+    (p1 + q1 ) /2;
+    (q1 + r1) /2;
+    (r1 + p1) /2
+}
+
+avgthree(1,2,3)
