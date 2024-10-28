@@ -17,7 +17,7 @@ For-In loop: This is similiar to the for loop but then there is a decalaration o
 For-of loop: The for of loop is used where its the iteration of the variable iteration that is if here the string is harry then it would iterate it for each letter and give in a new line as each character. See line - 154 (LOOPS THROUGH THE VALUES OF AN OBJECT/STRING)
 8. While loop and do-while loop: 
 This is used when the for loop cannot be used to run as an iterate function and if we dont have an mention of i++ then it will go into a loop and consume more cpu speed and will lead to crash. Hence the while loop came into picture. In Do-While it first has a loop that runs then the condition is checked. 
-9. Function: A JS fucntion is a block of code designed to perform a particular task. That is the function followed by its name and the statement. 
+9. Function: A JS fucntion is a block of code designed to perform a particular task. That is the function followed by its name and the statement. The Function is where we use the function name and the parameters are passed on.A Function can also return a value the value us retured back to the the caller.
 
 
 

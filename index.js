@@ -177,13 +177,13 @@ rl.question("Enter a value of n: ", (n) => {
 });
 
 // POINT -9 - functions:- Now this below example is a code that is without an fucntion to find the average of three numbers 
-let p =1;
-let q =2;
-let r = 3;
+let p1 =1;
+let q1 =2;
+let r1 =3;
 
-console.log("average of three numbers are :", (p + q ) /2)
-console.log("average of three numbers are :", (q + r) /2)
-console.log("average of three numbers are :", (r + p) /2)
+console.log("average of three numbers are :", (p1 + q1) /2)
+console.log("average of three numbers are :", (q1 + r1) /2)
+console.log("average of three numbers are :", (r1 + p1) /2)
 
 // But if we use the function we can make it even more easy than having mulitple lines of code 
 function avgthree(p1,q2,r3){
@@ -193,3 +193,4 @@ function avgthree(p1,q2,r3){
 }
 
 avgthree(1,2,3)
+
