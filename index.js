@@ -194,3 +194,16 @@ function avgthree(p1,q2,r3){
 
 avgthree(1,2,3)
 
+//POINT-10 :Strings
+let surname = "dan"
+console.log(surname.length)
+
+//template literals: 
+let boy1="Dan";
+let boy2="San";
+let sentence = `${boy2} is a friend of ${boy1}`
+console.log(sentence)
+
+//escape sequence 
+let namesofescape = 'Dan\'s'   // here if we see there is too many single quotes and then to include it then we must be ignored using an escape sequence 
+console.log(namesofescape)

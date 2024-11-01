@@ -18,7 +18,8 @@ For-of loop: The for of loop is used where its the iteration of the variable ite
 8. While loop and do-while loop: 
 This is used when the for loop cannot be used to run as an iterate function and if we dont have an mention of i++ then it will go into a loop and consume more cpu speed and will lead to crash. Hence the while loop came into picture. In Do-While it first has a loop that runs then the condition is checked. 
 9. Function: A JS fucntion is a block of code designed to perform a particular task. That is the function followed by its name and the statement. The Function is where we use the function name and the parameters are passed on.A Function can also return a value the value us retured back to the the caller.
-
+10. Strings: Strings are used to store and manipulate text and it can be used as in double quotes as well as the single quotes. Then to get the count of the characters used we use the .length. 
+Then we have the template literals where we can use the backtic(`) when ever we dont want to specific any value in the sentence. Then we have the escape sequence that is where if in case we have an apostrophe 's then we have an issue with the character to solve this we have the escape sequence that is used like (\).Like this we also have three other escape sequence that is \n or \- used for newline second one is \t is the used for tab and the last one is \r thatis used for carriage return.  
 
 
 
