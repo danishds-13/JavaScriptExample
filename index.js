@@ -207,3 +207,25 @@ console.log(sentence)
 //escape sequence 
 let namesofescape = 'Dan\'s'   // here if we see there is too many single quotes and then to include it then we must be ignored using an escape sequence 
 console.log(namesofescape)
+
+// POINT-11
+const sub_marks=[10,20,50,null,false,"Not written"]
+console.log(sub_marks)
+console.log(sub_marks[1]) // to check only one value 
+console.log(sub_marks[1]) // to check only one value 
+sub_marks[7]=66 //adding a new element to the array
+sub_marks[1]=30  // replacing an existing element in an array
+console.log(sub_marks)
+
+//POINT-12 
+//toString():
+let str=[1,4,5,6]
+console.log(str.toString())
+
+//join()
+let jo=[2,3,5,6]
+console.log(jo.join("_"))
+
+//pop()
+str.pop()
+console.log(str)
