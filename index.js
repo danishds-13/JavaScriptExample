@@ -229,3 +229,58 @@ console.log(jo.join("_"))
 //pop()
 str.pop()
 console.log(str)
+
+//push
+str.push(8)
+console.log(str)
+
+//shift
+jo.shift()
+console.log(jo)
+
+// POINT-11 {Contd}
+//delete -> this method delete an element that is an array but that occupied space/block would still exist
+let delmode=[4,5,6,7,8];
+console.log(delmode.length);
+delete delmode[0];
+console.log(delmode.length);
+
+//concat -> with this option we can add the two arrays together without changing any values 
+let con1=[2,3,4,5,6];
+let con2=[7,8,9,10,11];
+let contotal=con1.concat(con2)       //how this works is the initial values to start the concat and then we add the other values in the brackets and also add them with a separator like commas
+console.log(contotal)
+
+//Sort 
+let sor1=[551,12,255,26,33,44,587,96];
+sor1.sort()      //this is for sorting the values in a given array but in js its sort done by alphabetic order that is 1,2,3,4 so any value first string and then that is arranged in alphabetic order 
+console.log(sor1)
+// to actual have the purpose of the sort array method we need to use the compare method
+let compare = (a,b)=> {
+    return a  -  b
+} 
+let sor12=[551,12,255,26,33,44,587,96];
+sor1.sort()      
+console.log(sor12)
+
+//reverse -> this function is used to reverse any value in the opposite 
+sor12.reverse()
+console.log(sor12)
+
+//POINT-13 Foreach: this is used to create an html array from an array object 
+num = [2,6,58,9,5]
+num.forEach((element) => {
+   console.log(element * element) 
+});
+
+// for of commands we can use the for of command to list the array  in an element 
+for (i of num){
+    console.log(i)
+}
+
+// array from 
+let name1234="harry"
+let arr = Array.from(num)
+console.log(arr)
+
+
