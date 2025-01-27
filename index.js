@@ -283,4 +283,25 @@ let name1234="harry"
 let arr = Array.from(num)
 console.log(arr)
 
+// Point 15 but as an internal part of the html code 
+<script src="script.js">
+    console.log(hello)
+</script>
+
+// Point 16 alert option -  we use this when we want to show an browser error/alert
+alert("hello your script works")
+let a = prompt("This is my name:") //since this returns a string always we need to pass a number then we need to convert it inbetween and that can be done with the help of Number.parseInt(variable)
+document.write(a);
+let write = confirm("Do you want to write it to the page")
+if (write){
+    document.write(a)
+}
+else{
+    decodeURIComponent.write("security breach")
+}
+
+//Point - 17: The window objects are used when you want the window objects to be used on the console
+console.log(window) 
+console.log(document.body)  
+
 
